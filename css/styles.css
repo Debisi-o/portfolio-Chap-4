@@ -1,7 +1,32 @@
 /* Reset and Base Styles */
-/* 
+/* Add here first, commit title: added layou css */
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+ /* Color Palette */
+:root {
+    --primary-bg: #0a0a0a;
+    --secondary-bg: #111111;
+    --accent-green: #00ff88;
+    --accent-pink: #ff0088;
+    --accent-purple: #8800ff;
+    --text-primary: #ffffff;
+    --text-secondary: #888888;
+    --text-muted: #444444;
+
+    /* Typography */
+    --font-primary: 'Space Grotesk', sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+
+    /* Spacing */
+    --section-padding: 120px 0;
+    --container-padding: 0 24px;
+
+    /* Animations */
+    --transition-smooth: all 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+    --transition-fast: all 0.3s ease;
 }
 
